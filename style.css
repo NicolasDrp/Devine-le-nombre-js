@@ -3,7 +3,7 @@ body{
 }
 
 #parent {
-    margin: 10em;
+    margin: 30vh;
     text-align: center;
 }
 
@@ -15,10 +15,4 @@ body{
 
 #nombre{
     width: 96%;
-}
-
-.submit{
-    height: 2em;
-    width:100%;
-    background: rgb(68, 207, 13);
 }
