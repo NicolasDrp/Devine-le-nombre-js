@@ -1,0 +1,24 @@
+body{
+    background: #d7d7d7;
+}
+
+#parent {
+    margin: 10em;
+    text-align: center;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+}
+
+#nombre{
+    width: 96%;
+}
+
+.submit{
+    height: 2em;
+    width:100%;
+    background: rgb(68, 207, 13);
+}
