@@ -22,8 +22,9 @@ function reponse(event) {
 
     if (nombreadeviner == choixjoueur) {
         message.innerHTML = "GAGNER !!!";
-        rejouer.innerHTML = "REJOUER"
+        rejouer.innerHTML = "REJOUER";
         document.getElementById("parent").appendChild(rejouer);
+        rejouer.style.display = "initial";
     } else if (choixjoueur > nombreadeviner) {
         message.innerHTML = "Moins";
         tentative++;
